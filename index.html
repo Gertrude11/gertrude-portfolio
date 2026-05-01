@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerturde Uzimana — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursor-follower"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#">AM<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-content">
+    <div class="terminal-badge reveal-up">
+      <span class="terminal-dot red"></span>
+      <span class="terminal-dot yellow"></span>
+      <span class="terminal-dot green"></span>
+      <span class="terminal-text" id="terminal-text"></span><span class="cursor-blink">|</span>
+    </div>
+    <h1 class="hero-name reveal-up delay-1">Gerturde Uzimana</h1>
+    <p class="hero-tagline reveal-up delay-2">
+      Software Engineer &amp; AI Architect<br/>
+      <span class="hero-tagline-sub">Building systems that think, scale, and endure.</span>
+    </p>
+    <div class="hero-tags reveal-up delay-3">
+      <span class="tag">Java &amp; Python</span>
+      <span class="tag">QA Automation</span>
+      <span class="tag">AI / ML</span>
+      <span class="tag">Cloud Native</span>
+      <span class="tag">Kubernetes</span>
+      <span class="tag">UI/UX</span>
+    </div>
+    <div class="hero-ctas reveal-up delay-4">
+      <a href="#projects" class="btn-primary">View Work</a>
+      <a href="#contact" class="btn-ghost">Let's Talk</a>
+    </div>
+    <div class="hero-stats reveal-up delay-5">
+      <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Years Exp</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="20">0</span><span class="stat-label">Projects</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="8">0</span><span class="stat-label">Certifications</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="orbit-ring ring-1"></div>
+    <div class="orbit-ring ring-2"></div>
+    <div class="orbit-ring ring-3"></div>
+    <div class="avatar-wrap">
+      <div class="avatar-initials">GU</div>
+    </div>
+    <div class="orbit-icon icon-java" title="Java">☕</div>
+    <div class="orbit-icon icon-python" title="Python">🐍</div>
+    <div class="orbit-icon icon-k8s" title="Kubernetes">⎈</div>
+    <div class="orbit-icon icon-ai" title="AI">🤖</div>
+    <div class="orbit-icon icon-cloud" title="Cloud">☁</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-label reveal-up">Who I Am</div>
+    <div class="about-grid">
+      <div class="about-left reveal-up delay-1">
+        <h2 class="section-title">Not just a developer.<br/><em>An architect of possibilities.</em></h2>
+        <p class="about-text">I operate at the intersection of engineering depth and business impact. My work spans the full spectrum — from crafting pixel-perfect UIs to architecting cloud-native microservices that serve millions, from training AI models that genuinely learn to building QA pipelines that catch what humans miss.</p>
+        <p class="about-text">I believe great software is invisible. It just works — reliably, elegantly, at scale. That philosophy drives every commit I push.</p>
+        <div class="about-links">
+          <a href="#" class="social-pill" target="_blank">GitHub ↗</a>
+          <a href="#" class="social-pill" target="_blank">LinkedIn ↗</a>
+          <a href="#" class="social-pill" target="_blank">Resume ↓</a>
+        </div>
+      </div>
+      <div class="about-right reveal-up delay-2">
+        <div class="expertise-cards">
+          <div class="exp-card">
+            <div class="exp-icon">⚙</div>
+            <h3>Full-Stack Engineering</h3>
+            <p>Java Spring Boot · Python FastAPI · React · Node.js · REST &amp; GraphQL APIs · microservices · event-driven architecture</p>
+          </div>
+          <div class="exp-card">
+            <div class="exp-icon">🛡</div>
+            <h3>QA Automation</h3>
+            <p>Selenium · Cypress · Playwright · TestNG · Jest · CI/CD pipelines · performance testing · contract testing</p>
+          </div>
+          <div class="exp-card">
+            <div class="exp-icon">🧠</div>
+            <h3>AI / ML Engineering</h3>
+            <p>LLM integration · RAG pipelines · TensorFlow · PyTorch · MLflow · vector databases · prompt engineering</p>
+          </div>
+          <div class="exp-card">
+            <div class="exp-icon">☁</div>
+            <h3>Cloud Native &amp; K8s</h3>
+            <p>AWS · GCP · Azure · Kubernetes · Docker · Helm · Terraform · Argo CD · observability stacks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label reveal-up">Technical Arsenal</div>
+    <h2 class="section-title reveal-up delay-1">Skills &amp; Expertise</h2>
+    <div class="skills-tabs reveal-up delay-2">
+      <button class="skills-tab active" data-tab="fullstack">Full Stack</button>
+      <button class="skills-tab" data-tab="qa">QA Automation</button>
+      <button class="skills-tab" data-tab="ai">AI / ML</button>
+      <button class="skills-tab" data-tab="cloud">Cloud Native</button>
+      <button class="skills-tab" data-tab="ui">UI Engineering</button>
+    </div>
+    <div class="skills-panel active" id="tab-fullstack">
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-name">Java (Spring Boot, Quarkus)</span><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div><span class="skill-pct">95%</span></div>
+        <div class="skill-item"><span class="skill-name">Python (FastAPI, Django, Flask)</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div><span class="skill-pct">92%</span></div>
+        <div class="skill-item"><span class="skill-name">React / Next.js</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-item"><span class="skill-name">Node.js / TypeScript</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-item"><span class="skill-name">REST API / GraphQL / gRPC</span><div class="skill-bar"><div class="skill-fill" data-width="93"></div></div><span class="skill-pct">93%</span></div>
+        <div class="skill-item"><span class="skill-name">PostgreSQL / MongoDB / Redis</span><div class="skill-bar"><div class="skill-fill" data-width="87"></div></div><span class="skill-pct">87%</span></div>
+        <div class="skill-item"><span class="skill-name">Kafka / RabbitMQ</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-item"><span class="skill-name">Microservices Architecture</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div><span class="skill-pct">90%</span></div>
+      </div>
+    </div>
+    <div class="skills-panel" id="tab-qa">
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-name">Selenium / WebDriver</span><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div><span class="skill-pct">95%</span></div>
+        <div class="skill-item"><span class="skill-name">Cypress / Playwright</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div><span class="skill-pct">90%</span></div>
+        <div class="skill-item"><span class="skill-name">TestNG / JUnit / pytest</span><div class="skill-bar"><div class="skill-fill" data-width="93"></div></div><span class="skill-pct">93%</span></div>
+        <div class="skill-item"><span class="skill-name">API Testing (Postman, REST Assured)</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-item"><span class="skill-name">Performance Testing (JMeter, k6)</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div><span class="skill-pct">82%</span></div>
+        <div class="skill-item"><span class="skill-name">CI/CD Integration (Jenkins, GitHub Actions)</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div><span class="skill-pct">90%</span></div>
+        <div class="skill-item"><span class="skill-name">Contract Testing (Pact)</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div><span class="skill-pct">78%</span></div>
+        <div class="skill-item"><span class="skill-name">BDD (Cucumber, Behave)</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div><span class="skill-pct">85%</span></div>
+      </div>
+    </div>
+    <div class="skills-panel" id="tab-ai">
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-name">LLM Integration (OpenAI, Anthropic, Gemini)</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div><span class="skill-pct">90%</span></div>
+        <div class="skill-item"><span class="skill-name">RAG Pipeline Design</span><div class="skill-bar"><div class="skill-fill" data-width="87"></div></div><span class="skill-pct">87%</span></div>
+        <div class="skill-item"><span class="skill-name">TensorFlow / PyTorch</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-item"><span class="skill-name">Langchain / LlamaIndex</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-item"><span class="skill-name">Vector Databases (Pinecone, Weaviate)</span><div class="skill-bar"><div class="skill-fill" data-width="83"></div></div><span class="skill-pct">83%</span></div>
+        <div class="skill-item"><span class="skill-name">MLflow / Model Serving</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div><span class="skill-pct">78%</span></div>
+        <div class="skill-item"><span class="skill-name">Prompt Engineering</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div><span class="skill-pct">92%</span></div>
+        <div class="skill-item"><span class="skill-name">Computer Vision (OpenCV)</span><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div><span class="skill-pct">72%</span></div>
+      </div>
+    </div>
+    <div class="skills-panel" id="tab-cloud">
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-name">Kubernetes (K8s)</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div><span class="skill-pct">92%</span></div>
+        <div class="skill-item"><span class="skill-name">Docker / Container Orchestration</span><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div><span class="skill-pct">95%</span></div>
+        <div class="skill-item"><span class="skill-name">AWS (EKS, Lambda, S3, RDS)</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-item"><span class="skill-name">Terraform / Infrastructure as Code</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-item"><span class="skill-name">Helm Charts</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div><span class="skill-pct">82%</span></div>
+        <div class="skill-item"><span class="skill-name">Argo CD / GitOps</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-item"><span class="skill-name">Prometheus / Grafana</span><div class="skill-bar"><div class="skill-fill" data-width="83"></div></div><span class="skill-pct">83%</span></div>
+        <div class="skill-item"><span class="skill-name">Istio / Service Mesh</span><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div><span class="skill-pct">75%</span></div>
+      </div>
+    </div>
+    <div class="skills-panel" id="tab-ui">
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-name">React / Next.js / Remix</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div><span class="skill-pct">90%</span></div>
+        <div class="skill-item"><span class="skill-name">TypeScript / JavaScript (ES2024)</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div><span class="skill-pct">92%</span></div>
+        <div class="skill-item"><span class="skill-name">CSS3 / Sass / Tailwind</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-item"><span class="skill-name">Design Systems &amp; Tokens</span><div class="skill-bar"><div class="skill-fill" data-width="83"></div></div><span class="skill-pct">83%</span></div>
+        <div class="skill-item"><span class="skill-name">Web Accessibility (WCAG 2.1)</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-item"><span class="skill-name">Animation (Framer Motion, GSAP)</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div><span class="skill-pct">78%</span></div>
+        <div class="skill-item"><span class="skill-name">Micro-Frontend Architecture</span><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div><span class="skill-pct">75%</span></div>
+        <div class="skill-item"><span class="skill-name">Figma / Design Handoff</span><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div><span class="skill-pct">72%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-label reveal-up">Verified Knowledge</div>
+    <h2 class="section-title reveal-up delay-1">Certifications &amp; Credentials</h2>
+    <p class="section-subtitle reveal-up delay-2">Every certification here represents deep, hands-on mastery — not just exam prep. These are the credentials employers and clients trust.</p>
+    <div class="certs-grid">
+
+      <div class="cert-card reveal-up delay-1">
+        <div class="cert-header">
+          <div class="cert-badge aws">AWS</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">Amazon Web Services</span>
+            <span class="cert-year">2023</span>
+          </div>
+          <div class="cert-level expert">Professional</div>
+        </div>
+        <h3 class="cert-title">AWS Certified Solutions Architect — Professional</h3>
+        <p class="cert-desc">The most respected cloud architecture credential in the industry. This certification validates my ability to design distributed systems on AWS that are highly available, fault-tolerant, and cost-optimized. It covers complex multi-account architectures, hybrid networking, disaster recovery strategies, and security at scale. Earning the Professional tier (vs. Associate) requires demonstrable experience designing production systems — not just theoretical knowledge. Organizations trust SAP-certified engineers to architect systems that run 24/7 without flinching.</p>
+        <div class="cert-skills">
+          <span>VPC Design</span><span>EKS</span><span>Lambda</span><span>IAM</span><span>DR Strategy</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-2">
+        <div class="cert-header">
+          <div class="cert-badge cka">CKA</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">Cloud Native Computing Foundation</span>
+            <span class="cert-year">2023</span>
+          </div>
+          <div class="cert-level expert">Expert</div>
+        </div>
+        <h3 class="cert-title">Certified Kubernetes Administrator (CKA)</h3>
+        <p class="cert-desc">Kubernetes is the backbone of modern cloud-native infrastructure, and CKA is the definitive proof you can run it in production. This is a 100% hands-on, performance-based exam — no multiple choice. You're dropped into a live cluster and must configure networking, manage workloads, troubleshoot failing nodes, implement RBAC, and perform cluster upgrades under time pressure. Employers running microservices architectures specifically seek CKA holders because it means I can own the platform, not just deploy to it.</p>
+        <div class="cert-skills">
+          <span>RBAC</span><span>Networking</span><span>Storage</span><span>Cluster Ops</span><span>Troubleshooting</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-3">
+        <div class="cert-header">
+          <div class="cert-badge gcp">GCP</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">Google Cloud</span>
+            <span class="cert-year">2022</span>
+          </div>
+          <div class="cert-level pro">Professional</div>
+        </div>
+        <h3 class="cert-title">Google Cloud Professional Data Engineer</h3>
+        <p class="cert-desc">This certification validates expertise in designing data processing systems, building reliable pipelines, and operationalizing machine learning models on GCP. It covers BigQuery, Dataflow, Pub/Sub, Vertex AI, and data governance frameworks. For AI engineering work, this credential is particularly powerful — it bridges the gap between raw data infrastructure and production ML systems, demonstrating that I can take a model from notebook to deployed, monitored API serving real traffic.</p>
+        <div class="cert-skills">
+          <span>BigQuery</span><span>Vertex AI</span><span>Dataflow</span><span>Pub/Sub</span><span>MLOps</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-1">
+        <div class="cert-header">
+          <div class="cert-badge java">OCP</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">Oracle</span>
+            <span class="cert-year">2021</span>
+          </div>
+          <div class="cert-level expert">Expert</div>
+        </div>
+        <h3 class="cert-title">Oracle Certified Professional — Java SE 17 Developer</h3>
+        <p class="cert-desc">Java mastery at the language specification level. OCP Java 17 covers advanced topics including lambda expressions, streams, modules (JPMS), concurrency, records, sealed classes, and pattern matching — features that separate proficient Java developers from senior engineers. This credential signals to enterprise clients and employers that I write idiomatic, performant Java, not just Java that happens to compile. It's the benchmark Oracle itself sets for professional-grade developers.</p>
+        <div class="cert-skills">
+          <span>Java 17</span><span>Streams</span><span>Concurrency</span><span>JPMS</span><span>Design Patterns</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-2">
+        <div class="cert-header">
+          <div class="cert-badge azure">AZ</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">Microsoft</span>
+            <span class="cert-year">2023</span>
+          </div>
+          <div class="cert-level pro">Professional</div>
+        </div>
+        <h3 class="cert-title">Microsoft Azure AI Engineer Associate (AI-102)</h3>
+        <p class="cert-desc">Validates expertise in building AI solutions using Azure Cognitive Services, Azure OpenAI Service, and Azure Machine Learning. This certification confirms I can design and implement AI-powered applications — from conversational AI to computer vision pipelines — following responsible AI principles. As organizations race to integrate GPT-4 and other LLMs into products, AI-102 certified engineers are uniquely positioned to architect secure, compliant, production-ready AI solutions on the Microsoft stack.</p>
+        <div class="cert-skills">
+          <span>Azure OpenAI</span><span>Cognitive Services</span><span>Azure ML</span><span>Bot Framework</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-3">
+        <div class="cert-header">
+          <div class="cert-badge istqb">ISTQB</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">ISTQB / GASQ</span>
+            <span class="cert-year">2021</span>
+          </div>
+          <div class="cert-level pro">Advanced</div>
+        </div>
+        <h3 class="cert-title">ISTQB Advanced Level — Test Automation Engineer</h3>
+        <p class="cert-desc">The international gold standard for QA automation professionals. The Advanced Test Automation Engineer certification goes far beyond tool knowledge — it covers automation architecture design, keyword-driven and data-driven frameworks, CI/CD pipeline integration, and ROI analysis for test automation initiatives. This certification is globally recognized across 100+ countries and signals that my QA work follows industry best practices, not ad-hoc scripting. Critical for organizations scaling engineering teams where test reliability directly impacts release velocity.</p>
+        <div class="cert-skills">
+          <span>Framework Design</span><span>CI Integration</span><span>Test Strategy</span><span>Data-Driven</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-1">
+        <div class="cert-header">
+          <div class="cert-badge tf">TF</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">HashiCorp</span>
+            <span class="cert-year">2022</span>
+          </div>
+          <div class="cert-level pro">Professional</div>
+        </div>
+        <h3 class="cert-title">HashiCorp Certified — Terraform Associate</h3>
+        <p class="cert-desc">Infrastructure-as-Code is how modern teams manage cloud environments reproducibly, at scale. This certification validates proficiency in Terraform — writing modules, managing remote state, handling workspace environments, and integrating with CI/CD pipelines for automated infrastructure provisioning. In a world where manual cloud configuration leads to drift, security gaps, and incident response nightmares, Terraform-certified engineers bring discipline and repeatability to infrastructure operations.</p>
+        <div class="cert-skills">
+          <span>IaC</span><span>Modules</span><span>State Mgmt</span><span>Workspaces</span><span>Providers</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-2">
+        <div class="cert-header">
+          <div class="cert-badge ckad">CKAD</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">Cloud Native Computing Foundation</span>
+            <span class="cert-year">2022</span>
+          </div>
+          <div class="cert-level expert">Expert</div>
+        </div>
+        <h3 class="cert-title">Certified Kubernetes Application Developer (CKAD)</h3>
+        <p class="cert-desc">Where CKA focuses on cluster administration, CKAD focuses on designing and deploying applications optimally within Kubernetes. This performance-based exam tests the ability to build multi-container pods, configure probes and resource limits, manage deployments with rolling updates, and design cloud-native applications following the 12-factor app methodology. Having both CKA and CKAD demonstrates end-to-end Kubernetes expertise — from cluster to application layer — which is rare and highly valued.</p>
+        <div class="cert-skills">
+          <span>Pod Design</span><span>Services</span><span>Config Maps</span><span>Deployments</span><span>12-Factor</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal-up delay-3">
+        <div class="cert-header">
+          <div class="cert-badge sec">SEC+</div>
+          <div class="cert-meta">
+            <span class="cert-issuer">CompTIA</span>
+            <span class="cert-year">2020</span>
+          </div>
+          <div class="cert-level pro">Professional</div>
+        </div>
+        <h3 class="cert-title">CompTIA Security+ (SY0-701)</h3>
+        <p class="cert-desc">Security is not an afterthought in my code — it's a foundation. Security+ validates expertise in threat identification, vulnerability assessment, cryptography, PKI, identity management, and security operations. As a developer who understands OWASP Top 10, SQL injection, XSS, and secure API design patterns, I bring security thinking to code review, architecture decisions, and deployment configurations. Organizations increasingly require developers with this credential, recognizing that secure-by-design is cheaper than breach response.</p>
+        <div class="cert-skills">
+          <span>Threat Analysis</span><span>Cryptography</span><span>IAM</span><span>Secure Dev</span><span>OWASP</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label reveal-up">Featured Work</div>
+    <h2 class="section-title reveal-up delay-1">Selected Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card featured reveal-up delay-1">
+        <div class="project-banner">
+          <div class="project-banner-bg bg-1"></div>
+          <div class="project-tag-top">AI / Full Stack</div>
+        </div>
+        <div class="project-body">
+          <h3>IntelliHire — AI Recruitment Platform</h3>
+          <p>End-to-end AI-powered recruitment system. Resume parsing with NLP, candidate ranking via embeddings, video interview analysis, and bias detection. Served 50K+ candidates monthly with 99.9% uptime.</p>
+          <div class="project-tech">
+            <span>Python</span><span>FastAPI</span><span>OpenAI</span><span>Pinecone</span><span>React</span><span>K8s</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Case Study ↗</a>
+            <a href="#" class="proj-link">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-2">
+        <div class="project-banner">
+          <div class="project-banner-bg bg-2"></div>
+          <div class="project-tag-top">Cloud Native</div>
+        </div>
+        <div class="project-body">
+          <h3>FluxOps — GitOps Deployment Platform</h3>
+          <p>Internal developer platform built on Argo CD, Terraform, and Kubernetes. Reduced deployment time by 70%. Full observability with Prometheus + Grafana dashboards.</p>
+          <div class="project-tech">
+            <span>K8s</span><span>Terraform</span><span>Argo CD</span><span>Go</span><span>Prometheus</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Demo ↗</a>
+            <a href="#" class="proj-link">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-3">
+        <div class="project-banner">
+          <div class="project-banner-bg bg-3"></div>
+          <div class="project-tag-top">QA Automation</div>
+        </div>
+        <div class="project-body">
+          <h3>AutoFrame — Enterprise Test Framework</h3>
+          <p>BDD-driven automation framework integrating Playwright, TestNG, and custom reporting. Achieved 95% test coverage across 3 enterprise applications with zero flaky tests.</p>
+          <div class="project-tech">
+            <span>Playwright</span><span>Java</span><span>TestNG</span><span>Cucumber</span><span>Jenkins</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Case Study ↗</a>
+            <a href="#" class="proj-link">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-1">
+        <div class="project-banner">
+          <div class="project-banner-bg bg-4"></div>
+          <div class="project-tag-top">Full Stack / Java</div>
+        </div>
+        <div class="project-body">
+          <h3>TradeCore — Microservices Trading Engine</h3>
+          <p>High-throughput financial trading platform built with Java Spring Boot microservices, Kafka event streaming, and real-time WebSocket feeds. Processes 10K transactions/second.</p>
+          <div class="project-tech">
+            <span>Java 17</span><span>Spring Boot</span><span>Kafka</span><span>Redis</span><span>PostgreSQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Architecture ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-2">
+        <div class="project-banner">
+          <div class="project-banner-bg bg-5"></div>
+          <div class="project-tag-top">AI / ML</div>
+        </div>
+        <div class="project-body">
+          <h3>DocuMind — RAG Document Intelligence</h3>
+          <p>RAG-based document Q&amp;A system for legal and compliance teams. Ingests PDFs, contracts, and policies — delivers cited, accurate answers in seconds. Built on LangChain + Weaviate.</p>
+          <div class="project-tech">
+            <span>Python</span><span>LangChain</span><span>Weaviate</span><span>GPT-4</span><span>FastAPI</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Demo ↗</a>
+            <a href="#" class="proj-link">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-3">
+        <div class="project-banner">
+          <div class="project-banner-bg bg-6"></div>
+          <div class="project-tag-top">UI Engineering</div>
+        </div>
+        <div class="project-body">
+          <h3>PulseUI — Design System Library</h3>
+          <p>Open-source React component library with 60+ accessible components, dark mode, and full TypeScript support. Downloaded 8K+ times on npm. Storybook documentation.</p>
+          <div class="project-tech">
+            <span>React</span><span>TypeScript</span><span>Storybook</span><span>Radix UI</span><span>Vitest</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Docs ↗</a>
+            <a href="#" class="proj-link">npm ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label reveal-up">Get In Touch</div>
+    <h2 class="section-title reveal-up delay-1">Let's Build Something<br/><em>Exceptional Together</em></h2>
+    <p class="section-subtitle reveal-up delay-2">Whether you need a technical co-founder, a senior engineer, or a consultant to modernize your stack — I'm open to conversations.</p>
+    <div class="contact-grid">
+      <div class="contact-info reveal-up delay-1">
+        <div class="contact-item">
+          <div class="contact-icon">✉</div>
+          <div>
+            <span class="contact-label">Email</span>
+            <a href="mailto:gerturde.u@outlook.com" class="contact-value">gerturde.u@outlook.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌍</div>
+          <div>
+            <span class="contact-label">Available For</span>
+            <span class="contact-value">Remote · Contract · Full-Time</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⏱</div>
+          <div>
+            <span class="contact-label">Response Time</span>
+            <span class="contact-value">Within 24 hours</span>
+          </div>
+        </div>
+        <div class="contact-availability">
+          <div class="avail-dot"></div>
+          <span>Available for new projects</span>
+        </div>
+      </div>
+      <form class="contact-form reveal-up delay-2" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="">Select a topic...</option>
+            <option>Full-Stack Development Project</option>
+            <option>QA Automation Consulting</option>
+            <option>AI / ML Engineering</option>
+            <option>Cloud Native Architecture</option>
+            <option>UI Engineering</option>
+            <option>General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit" id="submit-btn">
+          <span id="btn-text">Send Message</span>
+          <span id="btn-icon">→</span>
+        </button>
+        <div id="form-feedback" class="form-feedback"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <span class="footer-logo">GU<span class="dot">.</span></span>
+    <p class="footer-copy">Crafted with precision · &copy; 2026 Gerturde Uzimana</p>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
