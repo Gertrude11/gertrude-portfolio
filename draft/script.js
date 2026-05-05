@@ -1,5 +1,5 @@
 /* ============================================
-   ALEX MORGAN PORTFOLIO — script.js
+   GERTURDE PORTFOLIO — script.js
    Interactions · Animations · EmailJS Contact
    ============================================ */
 
@@ -389,17 +389,17 @@ document.addEventListener('keydown', e => {
   }
 });
 
-console.log(`
-%c
- █████╗ ██╗     ███████╗██╗  ██╗    ███╗   ███╗ ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗
-██╔══██╗██║     ██╔════╝╚██╗██╔╝    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║
-███████║██║     █████╗   ╚███╔╝     ██╔████╔██║██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║
-██╔══██║██║     ██╔══╝   ██╔██╗     ██║╚██╔╝██║██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║
-██║  ██║███████╗███████╗██╔╝ ██╗    ██║ ╚═╝ ██║╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║
-╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
+// console.log(`
+// %c
+//  █████╗ ██╗     ███████╗██╗  ██╗    ███╗   ███╗ ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗
+// ██╔══██╗██║     ██╔════╝╚██╗██╔╝    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║
+// ███████║██║     █████╗   ╚███╔╝     ██╔████╔██║██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║
+// ██╔══██║██║     ██╔══╝   ██╔██╗     ██║╚██╔╝██║██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║
+// ██║  ██║███████╗███████╗██╔╝ ██╗    ██║ ╚═╝ ██║╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║
+// ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
 
-Hey there, fellow engineer! 👋
-Curious enough to open DevTools — I like you.
-If you're interested in working together, head to the Contact section.
-Or try the Konami Code for a surprise: ↑↑↓↓←→←→BA
-`, 'color: #6ECFB1; font-family: monospace; font-size: 9px;');
+// Hey there, fellow engineer! 👋
+// Curious enough to open DevTools — I like you.
+// If you're interested in working together, head to the Contact section.
+// Or try the Konami Code for a surprise: ↑↑↓↓←→←→BA
+// `, 'color: #6ECFB1; font-family: monospace; font-size: 9px;');
