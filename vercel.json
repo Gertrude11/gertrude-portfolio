@@ -1,5 +1,5 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/uzimana_portfolio.html" }
+  "rewrites": [
+    { "source": "/", "destination": "/uzimana_portfolio.html" }
   ]
 }
